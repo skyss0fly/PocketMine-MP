@@ -34,8 +34,6 @@ use pocketmine\player\Player;
  */
 
 class PlayerBookWriteEvent extends PlayerEvent implements Listener {
-public function onWrite(Listener $event , NBT $nbt) {
-return onWrite;
 
 	public function __construct(
 		Player $player,
