@@ -29,7 +29,7 @@ use pocketmine\item\Item;
 use pocketmine\player\Player;
 use pocketmine\event\PlayerEvent;
 
-/**
+/*
  * Called when a player Has Written a book
  */
 
