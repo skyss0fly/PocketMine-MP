@@ -25,7 +25,8 @@ namespace pocketmine\event\player;
 
 use pocketmine\event\Listener;
 use pocketmine\item\WritableBookBase;
-use NBT;
+
+
 use pocketmine\item\Item;
 use pocketmine\player\Player;
 use pocketmine\event\PlayerEvent;
@@ -34,7 +35,7 @@ use pocketmine\event\PlayerEvent;
  * Called when a player Has Written a book
  */
 
-class PlayerBookWriteEvent extends PlayerEvent implements Listener {
+class PlayerBookWriteEvent extends PlayerEvent {
 
 	public function __construct(
 		Player $player,
