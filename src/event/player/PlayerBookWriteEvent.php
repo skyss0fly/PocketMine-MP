@@ -28,6 +28,7 @@ use pocketmine\item\WritableBookBase;
 use NBT;
 use pocketmine\item\Item;
 use pocketmine\player\Player;
+use pocketmine\event\PlayerEvent;
 
 /**
  * Called when a player middle-clicks on a block to get an item in creative mode.
