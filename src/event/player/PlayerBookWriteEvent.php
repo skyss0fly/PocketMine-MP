@@ -38,16 +38,15 @@ class PlayerBookWriteEvent extends PlayerEvent {
 	public function __construct(
 		Player $player,
 		private BookEvent $bookWritten,
-		private Item $book,
+
 	){
 		$this->player = $player;
 	}
 
-	public function getBookEvent() : Book{
+	public function getBookWrittenEvent():BookEvent {
 		return $this->bookWritten;
 	}
 
-	public function getItem() : Item{
-		return $this->book;
+
 	}
 }
