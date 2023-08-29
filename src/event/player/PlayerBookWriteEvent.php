@@ -44,7 +44,7 @@ class PlayerBookWriteEvent extends PlayerEvent implements Listener {
 		$this->player = $player;
 	}
 
-	public function getBook() : Book{
+	public function getBookEvent() : Book{
 		return $this->bookWritten;
 	}
 
