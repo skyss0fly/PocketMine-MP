@@ -31,7 +31,7 @@ use pocketmine\player\Player;
 use pocketmine\event\PlayerEvent;
 
 /**
- * Called when a player middle-clicks on a block to get an item in creative mode.
+ * Called when a player Has Written a book
  */
 
 class PlayerBookWriteEvent extends PlayerEvent implements Listener {
