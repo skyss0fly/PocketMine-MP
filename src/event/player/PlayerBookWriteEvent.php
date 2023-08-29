@@ -25,8 +25,6 @@ namespace pocketmine\event\player;
 
 use pocketmine\event\Listener;
 use pocketmine\item\WritableBookBase;
-
-
 use pocketmine\item\Item;
 use pocketmine\player\Player;
 use pocketmine\event\PlayerEvent;
